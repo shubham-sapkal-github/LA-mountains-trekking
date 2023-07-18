@@ -1,8 +1,6 @@
-import { Hidden } from "@mui/material";
 import "../tabs/tabs.css";
 import Link from "@mui/material/Link";
 import { useState } from "react";
-import Typography from "@mui/material/Typography";
 import AccordianSecond from "./accordion/accordian2";
 // import AccordionTabs from "./accordion/accordion";
 

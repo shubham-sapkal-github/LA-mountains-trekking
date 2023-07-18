@@ -28,3 +28,10 @@ main {
     background-position: 40% center;
   }
 }
+
+@media only screen and (min-width: 600px) and (max-width: 912px) {
+  .hero-container {
+    height: 50vh;
+    background-position: 40% center;
+  }
+}

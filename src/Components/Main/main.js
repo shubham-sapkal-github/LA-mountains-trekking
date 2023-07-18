@@ -1,18 +1,10 @@
 import React from "react";
 import "./main.css";
 import Carousel from "./carousel/carousel.js";
-import Peakimg from "../../Assets/peak.jpg";
 import StickyNavbar from "../Header/Sticky nav/stickynav";
 import Tabs from "./tabs/tabs";
-import { useRef } from "react";
 
 function Main() {
-  const historyRef = useRef(null);
-
-  const scrollToHistorySection = () => {
-    historyRef.current.scrollIntoView({ behavior: "smooth" });
-  };
-
   return (
     <div style={{ position: "relative", marginTop: "-3px" }}>
       <StickyNavbar />

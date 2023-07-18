@@ -1,6 +1,6 @@
 import "../carousel/carousel.css";
 
-import React, { Component } from "react";
+import React from "react";
 import Slider from "react-slick";
 import CarouselImg1 from "../../../Assets/thumb_1.jpg";
 import CarouselImg2 from "../../../Assets/thumb_2.jpg";
