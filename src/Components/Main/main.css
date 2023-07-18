@@ -34,8 +34,8 @@ main {
 }
 
 .heading-dot {
-  background-color: #414f6b !important;
   display: block;
+  background-color: rgba(65, 79, 107, 0.502) !important;
   width: 20px;
   aspect-ratio: 1;
 }
