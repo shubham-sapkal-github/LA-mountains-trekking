@@ -1,0 +1,9 @@
+@media (max-width: 600px) {
+  .full-logo {
+    width: 32%;
+  }
+}
+
+a {
+  text-decoration: none;
+}

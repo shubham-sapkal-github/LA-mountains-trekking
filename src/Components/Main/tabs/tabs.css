@@ -1,0 +1,103 @@
+.tab-buttons-bar {
+  margin-top: 30px;
+  width: 100%;
+  background-color: rgba(65, 79, 107, 255);
+}
+
+.tab-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.tab-buttons a {
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 20px;
+  color: #b0b4be;
+  font-weight: 700;
+  font-family: "Oswald";
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.tab-buttons a.active-link {
+  text-decoration: underline;
+  text-underline-position: under;
+  background-color: rgba(
+    176,
+    180,
+    190,
+    255
+  ); /* Change this to your desired background color */
+  color: #414f6b; /* Change this to your desired text color */
+}
+
+.tabs-bgimg-secion {
+}
+
+.tab1-bgimg-secion {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-image: url("../../../Assets/tab_bg_1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.tab2-bgimg-secion {
+  height: 80vh;
+  width: 100%;
+  background-image: url("../../../Assets/tab_bg_2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.table-container {
+  position: absolute;
+  background-color: rgba(240, 243, 246, 0.8);
+  top: 16%;
+  left: 16%;
+  width: fit-content;
+  height: fit-content;
+  padding: 25px 0 25px 25px;
+}
+
+.table-container2 {
+  top: 72% !important;
+}
+
+.custom-table {
+  background: none !important;
+  border-style: none !important;
+  border: none !important;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: 600;
+  font-family: "Lato";
+}
+
+td {
+  padding-right: 30px !important;
+}
+
+tr {
+  text-wrap: nowrap;
+}
+
+@media (max-width: 600px) {
+  .tabs-bgimg-section {
+    display: none;
+  }
+  .tab1-bgimg-secion,
+  .tab2-bgimg-secion {
+    display: none;
+  }
+  .table-container {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

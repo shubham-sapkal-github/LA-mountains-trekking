@@ -1,0 +1,23 @@
+.carousel-image {
+  width: 100%;
+  padding-inline: 10px;
+}
+
+@media (max-width: 600px) {
+  .carousel-image {
+    width: 100%;
+  }
+}
+
+.slick-dots li button:before,
+.slick-dots li button:hover {
+  color: rgba(100, 110, 129, 255) !important;
+  opacity: 0.45 !important ;
+
+  /* color: red; */
+}
+
+.slick-dots li.slick-active button:before {
+  color: white !important;
+  opacity: 1 !important ;
+}

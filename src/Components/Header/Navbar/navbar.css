@@ -1,0 +1,17 @@
+@media (max-width: 600px) {
+  .top-logo {
+    width: 9% !important;
+  }
+  html {
+    scroll-behavior: smooth !important;
+    scroll-padding-top: 2rem !important;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+#menu-appbar .MuiPopover-paper {
+  background-color: rgba(65, 79, 107, 255);
+}
